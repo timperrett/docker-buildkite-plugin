@@ -31,6 +31,8 @@ configuration:
       type: string
     shell:
       type: string
+    privileged:
+      type: boolean
   required:
     - image
   additionalProperties: false
